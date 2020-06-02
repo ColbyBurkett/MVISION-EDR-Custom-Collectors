@@ -1,0 +1,3 @@
+#Mac: OS Command
+#Collector output: username, string
+dscl . list /Users | grep -v '^_'

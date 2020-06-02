@@ -1,0 +1,3 @@
+#Mac: OS Command
+#Collector Output: status, string
+systemsetup -getremotelogin
