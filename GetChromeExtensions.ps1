@@ -4,6 +4,7 @@
 #     Added another location of extension name
 #     Changed output to on-screen CSV
 # Returns all versions of Extensions on the system, active or not
+# Probably could use even more rework....
 # Currently English only
 $OutputEncoding = New-Object -typename System.Text.UTF8Encoding
 # resize PS buffer size in order to avoid undesired line endings or trims in the output
