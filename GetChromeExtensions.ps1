@@ -1,4 +1,4 @@
-# Based on script on SpiceWorks by "Bellows"
+ # Based on script on SpiceWorks by "Bellows"
 # Changes:
 #     Refactored for accuracy and brevity
 #     Added another location of extension name
@@ -79,7 +79,7 @@ foreach ($extension_folder in $extension_folders ) {
             $name = $appid
         }
         if ($version_folders) {
-            Write-Host ("""{0}"",""{1}"",""{2}""" -f $name,$version_folder,$appid)
+            Write-Host ("""{0}"",""{1}"",""{2}""" -f $name,($version_folder -replace '_0$',''),$appid)
             }
         }
 }
