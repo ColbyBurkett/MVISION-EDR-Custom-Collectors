@@ -5,7 +5,6 @@
 #     Changed output to on-screen CSV
 # Returns all versions of Extensions on the system, active or not
 # Currently English only
-# This collector returns the IP Address and Name for Network Interfaces, including VPN
 $OutputEncoding = New-Object -typename System.Text.UTF8Encoding
 # resize PS buffer size in order to avoid undesired line endings or trims in the output
 $pshost = get-host
