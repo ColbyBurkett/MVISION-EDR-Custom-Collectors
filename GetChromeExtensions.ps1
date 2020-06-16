@@ -1,4 +1,4 @@
- # Based on script on SpiceWorks by "Bellows"
+# Based on script on SpiceWorks by "Bellows"
 # Changes:
 #     Refactored for accuracy and brevity
 #     Added another location of extension name
